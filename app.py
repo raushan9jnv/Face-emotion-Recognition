@@ -93,33 +93,21 @@ def main():
                  ''')
 
     elif choice == "About":
-       # st.subheader("About this app")
-        #html_temp_about1= """<div style="background-color:#6D7B8D;padding:10px">
-       #                             <h4 style="color:white;text-align:center;">
-         #                           Real time face emotion detection application using OpenCV, Custom Trained CNN model and Streamlit.</h4>
-          #                          </div>
-           #                        </br>"""
-        html_temp_home1 = """<div style="background-color:tomato";padding:10px">
-        <h4 style="color:white;text-align:center;">
-        About This App.</h4>
-        </div>
-        </br>"""
-        st.markdown(html_temp_home1, unsafe_allow_html=True)                           
-        # st.markdown(html_temp_about1, unsafe_allow_html=True)
 
+        st.subheader("About This App")
         html_temp4 = """
-                                    <div style="background-color:#98AFC7;padding:10px">
-                                    <h4 style="color:white;text-align:center;">Raushan kumar and Sridhar Nagar created this demo application using the Streamlit Framework, OpenCV, Tensorflow, and Keras libraries. </h4>
-                                    <h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
+                                    <div style="background-color:tomato;padding:10px">
+                                    <h4 style="color:white;text-align:center;">Raushan kumar, Sridhar Nagar and Kanishka Raj created this demo application using the Streamlit Framework, OpenCV, Tensorflow, and Keras libraries. </h4>
                                     </div>
                                     <br></br>
                                     <br></br>"""
-
         st.markdown(html_temp4, unsafe_allow_html=True)
+        st.caption("Thanks for Visiting")
+
     elif choice == "Contact Us":
         st.header("Contact Details")
         with st.form(key='my_form'):
-            text_input = st.text_input(label='Enter sYour Message Here')
+            text_input = st.text_input(label='Enter Your Message Here')
             submit_button = st.form_submit_button(label='Submit')
 
                               
@@ -135,8 +123,8 @@ def main():
          
         html_temp_copyright = """
         <body style="background-color:red;">
-        <div style="background-color:purple ;padding:0.25px">
-        <h3 style="color:white;text-align:center;">Copyright © 2022 | Raushan sridhar Kanishka </h3>
+        <div style="background-color:tomato ;padding:0.25px">
+        <h3 style="color:white;text-align:center;">Copyright © 2022 | Raushan Sridhar Kanishka </h3>
         </div>
         </body>
         """
@@ -149,7 +137,7 @@ def main():
     footer="""<style> a:link , a:visited{color: blue;background-color: transparent;text-decoration: underline;} 
     a:hover,  a:active {color: red;background-color: transparent;text-decoration: underline;}
     .footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: white;color: black;text-align: center;}
-    </style><div class="footer"><p>Developed with ❤ by <a style='display: block; text-align: center;'href="https://www.heflin.dev/" target="_blank">Raushan, Sridhar and Kanishka</a></p> </div>"""
+    </style><div class="footer"><p>Developed with ❤ by Raushan Sridhar Kanishka </p> </div>"""
     st.markdown(footer,unsafe_allow_html=True)
 
 
