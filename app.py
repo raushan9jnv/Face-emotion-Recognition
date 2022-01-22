@@ -51,24 +51,21 @@ def main():
     st.title("Real Time Face Emotion Detection Application")
     activiteis = ["Home","About","Contact Us","Debug here"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
-    # st.sidebar.markdown(""" Developed by Rahul Kumar soni and Ali Asgar lakadwala.""")
-    # st.sidebar.markdown(""" LinkedIn profile Links""")
-    # st.sidebar.markdown(""">* [Rahul kumar soni] (https://www.linkedin.com/in/rahulsoni1b9757168/)
-                             # >* [Ali asgar lakadwala] (https://www.linkedin.com/in/ali-asgar-lakdawala/)""")
+  
     if choice == "Home":
         html_temp_home1 = """<div style="background-color:tomato";padding:10px">
                                             <h4 style="color:white;text-align:center;">
                                             Start Your Real Time Face Emotion Detection.</h4>
                                             </div>
                                             </br>"""
+
         st.markdown(html_temp_home1, unsafe_allow_html=True)
-        # y =st.caption("Select YES to Continue")
 
         selectbox = st.selectbox("Select Yes to Continue",["No selection","Yes", "No"])
         st.write(f"You selected {selectbox}")
         if selectbox == "Yes":
             st.subheader("Webcam Live Feed")
-            st.write("1. Click Start to open your camera and give permission for prediction.")
+            st.write("1. Click Start to open your camera and give permission for prediction")
             st.write("2. This will predict your emotion.")
             st.write("3. When you done, click stop to end.")
             webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
@@ -80,18 +77,6 @@ def main():
         else:
             pass
     
-    elif choice == "Debug here":
-        st.error('''Could not start video source''')
-        st.info('''
-                    > * Click on  Start  to open webcam.
-                    > * Allow browser to access the camera
-                    > * If you have more than one camera , then select by using select device.
-                    > * Make sure, any other application not using your camera
-                    > * Change the privacy settings of the camera
-                    > * Still webcam window did not open, Contact Us.
-                    
-                 ''')
-
     elif choice == "About":
 
         st.subheader("About This App")
@@ -129,7 +114,18 @@ def main():
         </body>
         """
         st.markdown(html_temp_copyright, unsafe_allow_html=True)
-        
+
+    elif choice == "Debug here":
+        st.error('''Could not start video source''')
+        st.info('''
+                    > * Click on  Start  to open webcam.
+                    > * Allow browser to access the camera
+                    > * If you have more than one camera , then select by using select device.
+                    > * Make sure, any other application not using your camera
+                    > * Change the privacy settings of the camera
+                    > * Still webcam window did not open, Contact Us.
+                    
+                 ''')  
     else:
         pass
 
