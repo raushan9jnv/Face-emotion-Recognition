@@ -9,14 +9,14 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 # load model
 emotion_dict = ["Angry","Disgust","Fear","Happy","Neutral","Sad","Surprise"]
 
-classifier =load_model("C:\\Users\\KAUSHAL KUMAR\\Desktop\\DS FACE\\custom_model.h5")
+classifier =load_model("custom_model.h5")
 
 # load weights into new model
-classifier.load_weights("C:\\Users\KAUSHAL KUMAR\\Desktop\DS FACE\\custom_model.h5")
+classifier.load_weights("custom_model.h5")
 
 #load face
 try:
-    face_cascade = cv2.CascadeClassifier("C:\\Users\KAUSHAL KUMAR\\Desktop\\DS FACE\\haarcascade_frontalface_default.xml")
+    face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 except Exception:
     st.write("Error loading cascade classifiers")
 
