@@ -1,0 +1,39 @@
+HEROKU ERRORS
+
+Why am I seeing "Application Error"?
+https://help.heroku.com/UMAUQ4UF/why-am-i-seeing-application-error
+
+Heroku "Process exited with status 137" node.js app
+https://stackoverflow.com/questions/43728830/heroku-process-exited-with-status-137-node-js-app
+
+
+Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch when building a streamlit web app on Heroku
+https://stackoverflow.com/questions/64509855/error-r10-boot-timeout-web-process-failed-to-bind-to-port-within-60-second
+
+App is not loading when running remotely
+https://docs.streamlit.io/knowledge-base/deploy/remote-start
+
+Changing of port and multiple streamlit app
+https://discuss.streamlit.io/t/changing-of-port-and-multiple-streamlit-app/142/6
+
+
+ImportError: cannot import name 'get_config' from 'tensorflow.python.eager.context
+https://stackoverflow.com/questions/66964492/importerror-cannot-import-name-get-config-from-tensorflow-python-eager-conte
+
+ImportError: No module named 'keras'
+https://stackoverflow.com/questions/45271344/importerror-no-module-named-keras
+
+
+A quick tutorial on how to deploy your Streamlit app to Heroku.
+https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
+
+
+
+AWS ERROS
+
+Amazon EC2 + SSL
+https://stackoverflow.com/questions/19926385/amazon-ec2-ssl
+
+
+Getting a FREE domain for your EC2 Instance
+https://medium.com/@kcabading/getting-a-free-domain-for-your-ec2-instance-3ac2955b0a2f
