@@ -9,14 +9,14 @@ from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 # load model
 emotion_dict = ["Angry","Disgust","Fear","Happy","Neutral","Sad","Surprise"]
 
-classifier =load_model("custom_model_result.h5")
+classifier =load_model("C:\\Users\\KAUSHAL KUMAR\\Desktop\\face emotion recognition\\Final_model.h5")
 
 # load weights into new model
-classifier.load_weights("custom_model_result.h5")
+classifier.load_weights("C:\\Users\\KAUSHAL KUMAR\\Desktop\\face emotion recognition\\Final_model.h5")
 
 #load face
 try:
-    face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+    face_cascade = cv2.CascadeClassifier("C:\\Users\\KAUSHAL KUMAR\\Desktop\\face emotion recognition\\haarcascade_frontalface_default.xml")
 except Exception:
     st.write("Error loading cascade classifiers")
 
@@ -70,10 +70,9 @@ def main():
             st.write("3. When you done, click stop to end.")
             webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
             
-            st.info("Error? go to check 'Debug here' option menu from the sidebar")
         elif selectbox == "No":
-            st.info("It will be fun, You May try it!. We not saving your data. HAHA :)!")
-            st.caption("Thanks for being here!")
+            st.info("This will be fun, You may try it!. We are not saving your data. HAHA!")
+            st.caption("Thanks for Visiting!")
         else:
             pass
     
@@ -82,7 +81,7 @@ def main():
         st.subheader("About This App")
         html_temp4 = """
                                     <div style="background-color:tomato;padding:10px">
-                                    <h4 style="color:white;text-align:center;">Raushan kumar, Sridhar Nagar and Kanishka Raj created this demo application using the Streamlit Framework, OpenCV, Tensorflow, and Keras libraries. </h4>
+                                    <h4 style="color:white;text-align:center;">Raushan kumar, Sridhar Nagar, Kanishka Raj and Rakhi created this demo application using the Streamlit Framework, OpenCV, Tensorflow, and Keras libraries. </h4>
                                     </div>
                                     <br></br>
                                     <br></br>"""
@@ -99,12 +98,14 @@ def main():
         st.subheader("""Email Ids""")
         st.info(""">* Raushan Kumar : raushan9jnv@gmail.com
                     >* Sridhar Nagar : sridharnagar11@gmail.com
-                      >* Kanishka Raj : thisisraj.57@gmail.com""")
+                      >* Kanishka Raj : thisisraj.57@gmail.com
+                        >* Rakhi Kumari : kumari.rakhi19@gmail.com""")
 
         st.subheader(""" LinkedIn Profile""")     
         st.info(""">* [Raushan kumar] (https://www.linkedin.com/in/raushan-kumar-a0316118a/) 
                            >* [Sridhar Nagar] (https://www.linkedin.com/in/sridhar-nagar-788525216/)
-                              >* [Kanishka Raj] (https://www.linkedin.com/in/kanishka-raj-4a826021a/)""")
+                              >* [Kanishka Raj] (https://www.linkedin.com/in/kanishka-raj-4a826021a/)
+                                >* >* [Rakhi Kumari] (https://www.linkedin.com/in/rakhi-kumari-ab521769/)""")
          
         html_temp_copyright = """
         <body style="background-color:red;">
@@ -133,7 +134,7 @@ def main():
     footer="""<style> a:link , a:visited{color: blue;background-color: transparent;text-decoration: underline;} 
     a:hover,  a:active {color: red;background-color: transparent;text-decoration: underline;}
     .footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: white;color: black;text-align: center;}
-    </style><div class="footer"><p>Developed with ❤ by Raushan Sridhar Kanishka </p> </div>"""
+    </style><div class="footer"><p>Developed with ❤ by Raushan Sridhar Kanishka Rakhi</p> </div>"""
     st.markdown(footer,unsafe_allow_html=True)
 
 
