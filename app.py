@@ -105,7 +105,7 @@ def main():
         st.info(""">* [Raushan kumar] (https://www.linkedin.com/in/raushan-kumar-a0316118a/) 
                            >* [Sridhar Nagar] (https://www.linkedin.com/in/sridhar-nagar-788525216/)
                               >* [Kanishka Raj] (https://www.linkedin.com/in/kanishka-raj-4a826021a/)
-                                >* >* [Rakhi Kumari] (https://www.linkedin.com/in/rakhi-kumari-ab521769/)""")
+                                >* [Rakhi Kumari] (https://www.linkedin.com/in/rakhi-kumari-ab521769/)""")
          
         html_temp_copyright = """
         <body style="background-color:red;">
