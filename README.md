@@ -156,6 +156,18 @@ Finally we can plot the confusion matrix in order to see how our model classifie
 
 Our model is very good for predicting happy and surprised faces. However it predicts quite poorly feared faces maybe because it confuses them with sad faces.
 
+## Realtime Local Video Face Detection
+The following video contains the real time deploymnet of the app in local runtime 
+
+
+
+ https://user-images.githubusercontent.com/86125144/151710682-3ca80de2-d5a2-4ef1-9297-1ae92bbd7b98.mp4
+
+
+
+
+If the abouve video is not able to play visit [link](https://github.com/Ali-Asgar-Lakdawala/Face-Emotion-Recognition/tree/main/video) to download the video
+
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 
 We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku.
