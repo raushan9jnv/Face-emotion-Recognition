@@ -177,9 +177,9 @@ Streamlit: https://share.streamlit.io/raushan9jnv/face-emotion-recognition/main/
 
 Heroku: https://face-emotion-recog-app.herokuapp.com/ 
 
-![Screenshot 2022-01-30 232935](https://user-images.githubusercontent.com/86125144/151711860-2b51be34-4569-4c5c-b9c4-7d4d195c0d7d.png)
-
 ![Screenshot (291)](https://user-images.githubusercontent.com/86125144/151711818-6ebfde82-8fd0-45c3-be71-c916a2a5984e.png)
+
+![Screenshot 2022-01-30 232935](https://user-images.githubusercontent.com/86125144/151711860-2b51be34-4569-4c5c-b9c4-7d4d195c0d7d.png)
 
 ![Screenshot 2022-01-30 233338](https://user-images.githubusercontent.com/86125144/151711871-da723f44-fbc0-4325-b311-d97497b042ba.png)
 
