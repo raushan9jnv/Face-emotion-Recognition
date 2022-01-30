@@ -172,10 +172,7 @@ If the abouve video is not able to play visit [link](https://github.com/raushan9
 
 We have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku.
 
-Streamlit: https://share.streamlit.io/raushan9jnv/face-emotion-recognition/main/app.py
- 
 
-Heroku: https://face-emotion-recog-app.herokuapp.com/ 
 
 ![Screenshot (291)](https://user-images.githubusercontent.com/86125144/151711818-6ebfde82-8fd0-45c3-be71-c916a2a5984e.png)
 
@@ -186,6 +183,10 @@ Heroku: https://face-emotion-recog-app.herokuapp.com/
 ![Screenshot 2022-01-30 233518](https://user-images.githubusercontent.com/86125144/151711872-343af778-8907-4364-806b-24a664846031.png)
 
 
+Streamlit: https://share.streamlit.io/raushan9jnv/face-emotion-recognition/main/app.py
+ 
+
+Heroku: https://face-emotion-recog-app.herokuapp.com/
 
 
 ## Conclusion
