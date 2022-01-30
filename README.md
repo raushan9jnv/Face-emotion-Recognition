@@ -117,7 +117,9 @@ ResNet, short for Residual Networks is a classic neural network used as a backbo
 This model was the winner of ImageNet challenge in 2015. The fundamental breakthrough with ResNet was it allowed us to train extremely deep neural networks with 150+layers successfully.
 
 ResNet makes it possible to train up to hundreds or even thousands of layers and still achieves compelling performance.
+![image](https://user-images.githubusercontent.com/87691447/151714540-f5f1a053-ad98-4cb6-bfcf-56dae40a7169.png)
 
+![image](https://user-images.githubusercontent.com/87691447/151714552-7ef65628-2264-46d5-a62c-0bb496d0acbf.png)
 Plotting Accuracy & Loss to analyze the results:
 
 ![image](https://user-images.githubusercontent.com/87691447/151481835-cb867f63-6c98-438a-bd3d-65d6fe304675.png)
