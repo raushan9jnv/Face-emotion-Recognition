@@ -190,14 +190,14 @@ Heroku: https://face-emotion-recog-app.herokuapp.com/
 
 ## Conclusion
 
-We trained the neural network and we achieved the highest validation accuracy of 60.43%.
+- We trained the neural network and we achieved the highest validation accuracy of 60.43%.
 
-Pre Trained Model didn't gave appropriate result.
+- Pre Trained Model didn't gave appropriate result.
 
-The application is able to detect face location and predict the right expression while checking it on a local webcam.
+- The application is able to detect face location and predict the right expression while checking it on a local webcam.
 
-The front-end of the model was made using streamlit for webapp and running well on local webapp link.
+- The front-end of the model was made using streamlit for webapp and running well on local webapp link.
 
-Successfully deployed the Streamlit WebApp on Heroku and Streamlit share that runs on a web server.
+- Successfully deployed the Streamlit WebApp on Heroku and Streamlit share that runs on a web server.
 
-Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
+- Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
