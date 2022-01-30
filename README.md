@@ -137,6 +137,8 @@ Artificial neurons, a rough imitation of their biological counterparts, are math
 ![image](https://user-images.githubusercontent.com/87691447/151506674-72656401-6cdb-4462-8953-ab1fd859c9cf.png)
 
 
+
+
 Plotting Accuracy & Loss to analyze the results:
 
 ![image](https://user-images.githubusercontent.com/87691447/151481990-0c6a9175-83d7-467f-b88d-a007e3cfd191.png)
