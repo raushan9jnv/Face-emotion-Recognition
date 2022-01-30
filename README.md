@@ -166,7 +166,7 @@ The following video contains the real time deploymnet of the app in local runtim
 
 
 
-If the abouve video is not able to play visit [link](https://github.com/Ali-Asgar-Lakdawala/Face-Emotion-Recognition/tree/main/video) to download the video
+If the abouve video is not able to play visit [link](https://github.com/raushan9jnv/Face-emotion-Recognition/tree/main/Live%20Demo) to download the video
 
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 
