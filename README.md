@@ -119,7 +119,6 @@ This model was the winner of ImageNet challenge in 2015. The fundamental breakth
 ResNet makes it possible to train up to hundreds or even thousands of layers and still achieves compelling performance.
 ![image](https://user-images.githubusercontent.com/87691447/151714540-f5f1a053-ad98-4cb6-bfcf-56dae40a7169.png)
 
-![image](https://user-images.githubusercontent.com/87691447/151714552-7ef65628-2264-46d5-a62c-0bb496d0acbf.png)
 
 
 Plotting Accuracy & Loss to analyze the results:
