@@ -92,7 +92,7 @@ And then we perform Real Time Prediction on our best model using webcam on Googl
   - Run webcam on Google Colab
   - Load our best Model
   - Real Time prediction
-  - 
+  
 #### Step 3. Deployment
 
 And lastly we will deploy it on three different plateform
@@ -166,7 +166,7 @@ The following video contains the real time deploymnet of the app in local runtim
 
 
 
-If the abouve video is not able to play visit [link](https://github.com/raushan9jnv/Face-emotion-Recognition/tree/main/Live%20Demo) to download the video
+If the above video is not able to play visit [link](https://github.com/raushan9jnv/Face-emotion-Recognition/tree/main/Live%20Demo) to download the video
 
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 
