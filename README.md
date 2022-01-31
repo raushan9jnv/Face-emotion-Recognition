@@ -36,8 +36,6 @@ I will solve the above-mentioned challenge by applying deep learning algorithms 
 
 ❖ https://towardsdatascience.com/video-facial-expression-detection-with-deep-learning-applying-fast-ai-d9dcfd5bcf10
 
-❖ https://github.com/atulapra/Emotion-detection
-
 ❖ https://medium.com/analytics-vidhya/building-a-real-time-emotion-detector-towards-machine-with-e-q-c20b17f89220
 
 ## Dataset link 
