@@ -84,7 +84,7 @@ We going to use three different models including pre-trained and Custom Models a
  - Method1: Using DeepFace
  - Method2: Using ResNet
  - Method3: Custom CNN Model
- - 
+ 
 #### Step 2. Real Time Prediction
 
 And then we perform Real Time Prediction on our best model using webcam on Google colab itself.
