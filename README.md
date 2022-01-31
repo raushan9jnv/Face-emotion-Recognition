@@ -98,6 +98,8 @@ And lastly we will deploy it on three different plateform
    -  Streamlit Share
    -  Heroku
 
+
+
 ![image](https://user-images.githubusercontent.com/87691447/151481439-8259f8cc-bb59-4f2e-9522-23664d4e6b17.png)
 
 ## Method 1: Using DeepFace
